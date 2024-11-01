@@ -1,0 +1,28 @@
+div.wpm-mourning-text{
+	padding:1.2rem;
+	background-color:#444;
+	color:#FFF;
+	text-align:center;
+	width:100%;
+	position:relative;
+}
+
+.fa.close-mourning:hover, .fa.close-mourning:active, .fa.close-mourning:visited, .fa.close-mourning:link{
+	text-decoration:none;
+	color:#fff;
+}
+.fa.close-mourning {
+	color:#FFF;
+	font-size:1.5rem;
+	margin-left:.85rem;
+}
+
+.wpm-ribbon{
+	position: fixed;
+	z-index:9999;
+	left:-1rem;
+	top:-.8rem;
+	max-width:30%; 
+	cursor:pointer;
+	-webkit-backface-visibility: hidden;
+}
